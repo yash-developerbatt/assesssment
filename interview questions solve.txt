@@ -1,0 +1,26 @@
+interview questions solve
+
+1) What are missing values and how do you handle them?
+Ans: Missing values are gaps or null entries in a dataset where no data is stored for a particular variable or observation. 
+:Data entry errors,Equipment malfunctions during data collection,Respondents skipping survey questions,Data corruption or loss during transfer.
+
+2) How do you treat duplicate records?
+Ans:df = df.drop_duplicates(subset=['email', 'phone_number'])
+
+3) Difference between dropna() and fillna() in Pandas?
+Ans: 1.dropna()	Removes NaNs
+     2.fillna()	Replaces NaNs with value
+
+4) What is outlier treatment and why is it important?
+Ans: Errors (data entry mistakes like 1000 instead of 100)
+natural variations (e.g., someone legitimately has a very high income)
+
+5) Explain the process of standardizing data?
+Ans:  To bring features to the same scale
+
+6) How do you handle inconsistent data formats (e.g., date/time)?
+Ans: dates,times,booleans,currency
+
+7) What are common data cleaning challenges?
+Ans: Duplicate records,missing values
+
